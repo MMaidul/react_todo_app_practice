@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.headingStyle{
+    background-color: tomato;
+    color: white;
+    padding: 30px;
+}
+
+.card{
+    background-color: #ddd;
+    box-shadow:2px 2px 4px #3333;
+    margin: 20px;
+    padding: 20px;
+    width: 450px;
+    border-radius: 10px;
+    display: inline-block;
+}
+.card-title{
+    text-align: center;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+}
+.card-desc{
+    text-align: center;
+    font-size: 17px;
+}
+.card-footer{
+    text-align: center;
+    font-weight: bold;
+    margin-top: 20px;
+}
