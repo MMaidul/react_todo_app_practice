@@ -1,17 +1,24 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+
+
+const todoTitle = "call family";
+const todoDesc = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, aut!";
+const date = new Date();
+const currentDate = date.getDate();
+const currentMonth = date.getMonth();
+const currentYear = date.getFullYear();
+
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
+
 root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
+  <div>
+   <h1>Todo App</h1>
+   <h3>{todoTitle}</h3>
+   <p>{todoDesc}</p>
+   <p>{currentDate+ "/" + currentMonth +"/"+ currentYear}</p>
+ </div>,
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
