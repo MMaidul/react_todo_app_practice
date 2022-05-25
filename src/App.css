@@ -7,16 +7,16 @@
     background-color: tomato;
     color: white;
     padding: 30px;
+    text-align: center;
 }
 
 .card{
     background-color: #ddd;
     box-shadow:2px 2px 4px #3333;
-    margin: 20px;
+    margin: 20px auto;
     padding: 20px;
     width: 450px;
     border-radius: 10px;
-    display: inline-block;
 }
 .card-title{
     text-align: center;
